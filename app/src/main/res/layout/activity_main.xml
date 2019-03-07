@@ -6,13 +6,434 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Working!!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="360dp"
+        android:background="@drawable/board"
+        app:columnCount="7"
+        app:rowCount="6"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="306dp">
 
+        <ImageView
+            android:id="@+id/redPlayer0"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="13dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="11dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer10"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer11"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer12"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer13"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer14"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="12dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer15"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer16"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer17"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer18"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer19"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer20"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer21"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="7dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer22"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer23"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer24"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer25"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer26"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer27"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer28"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer29"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer30"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer31"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer32"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer33"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer34"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer35"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="10dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer36"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="5dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer37"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-3dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer38"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-1dp"
+            android:layout_marginTop="2dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer39"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-1dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer40"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="-2dp"
+            app:srcCompat="@drawable/redplayer" />
+
+        <ImageView
+            android:id="@+id/redPlayer41"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:layout_marginLeft="2dp"
+            app:srcCompat="@drawable/redplayer" />
+    </android.support.v7.widget.GridLayout>
 </android.support.constraint.ConstraintLayout>
