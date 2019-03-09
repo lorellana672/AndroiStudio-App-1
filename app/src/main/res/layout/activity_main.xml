@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <android.support.v7.widget.GridLayout
+        android:id="@+id/gridLayout"
         android:layout_width="match_parent"
         android:layout_height="360dp"
         android:background="@drawable/board"
@@ -24,7 +25,8 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="8dp"
             android:layout_marginBottom="13dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="0" />
 
         <ImageView
             android:id="@+id/redPlayer1"
@@ -34,7 +36,8 @@
             android:layout_column="0"
             android:layout_marginLeft="0dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="1" />
 
         <ImageView
             android:id="@+id/redPlayer2"
@@ -44,7 +47,8 @@
             android:layout_column="0"
             android:layout_marginLeft="-5dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="2" />
 
         <ImageView
             android:id="@+id/redPlayer3"
@@ -54,7 +58,8 @@
             android:layout_column="0"
             android:layout_marginLeft="-2dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="3" />
 
         <ImageView
             android:id="@+id/redPlayer4"
@@ -64,7 +69,8 @@
             android:layout_column="0"
             android:layout_marginLeft="-2dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="4" />
 
         <ImageView
             android:id="@+id/redPlayer5"
@@ -74,7 +80,8 @@
             android:layout_column="0"
             android:layout_marginLeft="-2dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="5" />
 
         <ImageView
             android:id="@+id/redPlayer6"
@@ -84,7 +91,8 @@
             android:layout_column="0"
             android:layout_marginLeft="-1dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="6" />
 
         <ImageView
             android:id="@+id/redPlayer7"
@@ -95,7 +103,8 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="11dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="7" />
 
         <ImageView
             android:id="@+id/redPlayer8"
@@ -105,7 +114,8 @@
             android:layout_column="0"
             android:layout_marginLeft="1dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="8" />
 
         <ImageView
             android:id="@+id/redPlayer9"
@@ -115,7 +125,8 @@
             android:layout_column="0"
             android:layout_marginLeft="-5dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="9" />
 
         <ImageView
             android:id="@+id/redPlayer10"
@@ -125,7 +136,8 @@
             android:layout_column="0"
             android:layout_marginLeft="-2dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="10" />
 
         <ImageView
             android:id="@+id/redPlayer11"
@@ -135,7 +147,8 @@
             android:layout_column="0"
             android:layout_marginLeft="-2dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="11" />
 
         <ImageView
             android:id="@+id/redPlayer12"
@@ -145,7 +158,8 @@
             android:layout_column="0"
             android:layout_marginLeft="-2dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="12" />
 
         <ImageView
             android:id="@+id/redPlayer13"
@@ -155,7 +169,8 @@
             android:layout_column="0"
             android:layout_marginLeft="-1dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="13" />
 
         <ImageView
             android:id="@+id/redPlayer14"
@@ -166,7 +181,8 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="12dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="14" />
 
         <ImageView
             android:id="@+id/redPlayer15"
@@ -176,7 +192,8 @@
             android:layout_column="0"
             android:layout_marginLeft="1dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="15" />
 
         <ImageView
             android:id="@+id/redPlayer16"
@@ -186,7 +203,8 @@
             android:layout_column="0"
             android:layout_marginLeft="-4dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="16" />
 
         <ImageView
             android:id="@+id/redPlayer17"
@@ -196,7 +214,8 @@
             android:layout_column="0"
             android:layout_marginLeft="-2dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="17" />
 
         <ImageView
             android:id="@+id/redPlayer18"
@@ -206,7 +225,8 @@
             android:layout_column="0"
             android:layout_marginLeft="-2dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="18" />
 
         <ImageView
             android:id="@+id/redPlayer19"
@@ -216,7 +236,8 @@
             android:layout_column="0"
             android:layout_marginLeft="-2dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="19" />
 
         <ImageView
             android:id="@+id/redPlayer20"
@@ -226,7 +247,8 @@
             android:layout_column="0"
             android:layout_marginLeft="-1dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="20" />
 
         <ImageView
             android:id="@+id/redPlayer21"
@@ -237,7 +259,8 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="7dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="21" />
 
         <ImageView
             android:id="@+id/redPlayer22"
@@ -247,7 +270,8 @@
             android:layout_column="0"
             android:layout_marginLeft="2dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="22" />
 
         <ImageView
             android:id="@+id/redPlayer23"
@@ -257,7 +281,8 @@
             android:layout_column="0"
             android:layout_marginLeft="-4dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="23" />
 
         <ImageView
             android:id="@+id/redPlayer24"
@@ -267,7 +292,8 @@
             android:layout_column="0"
             android:layout_marginLeft="-2dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="24" />
 
         <ImageView
             android:id="@+id/redPlayer25"
@@ -277,7 +303,8 @@
             android:layout_column="0"
             android:layout_marginLeft="-2dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="25" />
 
         <ImageView
             android:id="@+id/redPlayer26"
@@ -287,7 +314,8 @@
             android:layout_column="0"
             android:layout_marginLeft="-2dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="26" />
 
         <ImageView
             android:id="@+id/redPlayer27"
@@ -297,7 +325,8 @@
             android:layout_column="0"
             android:layout_marginLeft="-1dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="27" />
 
         <ImageView
             android:id="@+id/redPlayer28"
@@ -308,7 +337,8 @@
             android:layout_marginLeft="3dp"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="28" />
 
         <ImageView
             android:id="@+id/redPlayer29"
@@ -318,7 +348,8 @@
             android:layout_column="0"
             android:layout_marginLeft="2dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="29" />
 
         <ImageView
             android:id="@+id/redPlayer30"
@@ -328,7 +359,8 @@
             android:layout_column="0"
             android:layout_marginLeft="-4dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="30" />
 
         <ImageView
             android:id="@+id/redPlayer31"
@@ -338,7 +370,8 @@
             android:layout_column="0"
             android:layout_marginLeft="-1dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="31" />
 
         <ImageView
             android:id="@+id/redPlayer32"
@@ -348,7 +381,8 @@
             android:layout_column="0"
             android:layout_marginLeft="-1dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="32" />
 
         <ImageView
             android:id="@+id/redPlayer33"
@@ -358,7 +392,8 @@
             android:layout_column="0"
             android:layout_marginLeft="-2dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="33" />
 
         <ImageView
             android:id="@+id/redPlayer34"
@@ -368,7 +403,8 @@
             android:layout_column="0"
             android:layout_marginLeft="2dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="34" />
 
         <ImageView
             android:id="@+id/redPlayer35"
@@ -378,7 +414,8 @@
             android:layout_column="0"
             android:layout_marginLeft="3dp"
             android:layout_marginRight="10dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="35" />
 
         <ImageView
             android:id="@+id/redPlayer36"
@@ -388,7 +425,8 @@
             android:layout_column="0"
             android:layout_marginLeft="0dp"
             android:layout_marginRight="5dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="36" />
 
         <ImageView
             android:id="@+id/redPlayer37"
@@ -397,7 +435,8 @@
             android:layout_row="0"
             android:layout_column="0"
             android:layout_marginLeft="-3dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="37" />
 
         <ImageView
             android:id="@+id/redPlayer38"
@@ -407,7 +446,8 @@
             android:layout_column="0"
             android:layout_marginLeft="-1dp"
             android:layout_marginTop="2dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="38" />
 
         <ImageView
             android:id="@+id/redPlayer39"
@@ -416,7 +456,8 @@
             android:layout_row="0"
             android:layout_column="0"
             android:layout_marginLeft="-1dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="39" />
 
         <ImageView
             android:id="@+id/redPlayer40"
@@ -425,7 +466,8 @@
             android:layout_row="0"
             android:layout_column="0"
             android:layout_marginLeft="-2dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="40" />
 
         <ImageView
             android:id="@+id/redPlayer41"
@@ -434,6 +476,48 @@
             android:layout_row="0"
             android:layout_column="0"
             android:layout_marginLeft="2dp"
-            app:srcCompat="@drawable/redplayer" />
+            android:onClick="dropin"
+            android:tag="41" />
     </android.support.v7.widget.GridLayout>
+
+    <Button
+        android:id="@+id/playAgainButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/holo_blue_dark"
+        android:onClick="newGame"
+        android:text="Play Again"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/winningText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:textSize="25sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playAgainButton" />
 </android.support.constraint.ConstraintLayout>
